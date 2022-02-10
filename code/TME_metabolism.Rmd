@@ -1,0 +1,30 @@
+---
+title: "TME_metabolism"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    comment=NA)
+```
+
+## Gene expression analysis Cancer vs Stroma
+```{r}
+source("gene_expression_cs.R", echo = T, prompt.echo = "", spaced = F)
+```
+
+## Gene set enrichment analysis Cancer vs Stroma 
+```{r}
+source("GSEA_cs.R", echo = T, prompt.echo = "", spaced = F)
+```
+
+## Gene expression analysis cancer cells vs cancer cell lines 
+```{r}
+source("gene_expression_ccle.R", echo = T, prompt.echo = "", spaced = F)
+```
+
+## Gene set enrichment analysis Cancer cells vs cancer cell lines
+```{r}
+source("GSEA_ccle.R", echo = T, prompt.echo = "", spaced = F)
+```
