@@ -3,6 +3,9 @@ All data was downloaded from Xena UCSC:
 1. TCGA: Gene expression (tcga_RSEM_gene_fpkm) and copy number variation (Gistic2_CopyNumber_Gistic2_all_thresholded) data was downloaded from:  https://xenabrowser.net/datapages/?cohort=TCGA%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
 2. GTEX: Gene expression (gtex_RSEM_gene_fpkm) and phenotype (GTEX_phenotype) information was downloaded from: https://xenabrowser.net/datapages/?cohort=GTEX&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
 3. CCLE: Gene expression (CCLE_RNAseq_genes_rpkm_20180929) and phenotype data (Cell_lines_annotations_20181226) was downloaded from: https://xenabrowser.net/datapages/?cohort=Cancer%20Cell%20Line%20Encyclopedia%20(CCLE)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
+4. Single-cell RNA-seq data for melanoma (SKCM) tumor samples: GSE72056 (Tirosh et al. 2016)
+5. Single-cell RNA-seq data for head and neck cancer (HNSC) tumor samples: GSE103322 (Puram et al. 2017)
+
 
 Folder “code” contains all the functions and scripts that were used for the analysis. Description of the steps taken in the analysis are detailed below:
 1. Processing of the data for analysis was performed using the R script : “dataPreprocessing.R”
